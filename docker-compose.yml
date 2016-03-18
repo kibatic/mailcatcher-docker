@@ -1,0 +1,7 @@
+mailcatcher:
+  build: .
+  container_name: mailcatcher
+  environment:
+    VIRTUAL_HOST: mailcatcher.dev
+    AUTH_USER: plop
+    AUTH_PASSWORD: plop
